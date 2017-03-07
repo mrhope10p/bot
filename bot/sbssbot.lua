@@ -192,7 +192,8 @@ function load_config( )
   -- If config.lua doesn't exist
   if not f then
     print ("Created new config file: data/config.lua")
-    create_config()
+    create_config(HTTP API:
+363774248:AAFW_BndQHF2YCeONaVlYVvF19Cg_OBFrTk)
   else
     f:close()
   end
@@ -206,7 +207,8 @@ end
 -- Create a basic config.json file and saves it.
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
-  config = {
+  config = {HTTP API:
+363774248:AAFW_BndQHF2YCeONaVlYVvF19Cg_OBFrTk
     enabled_plugins = {
     "onservice",
     "inrealm",
@@ -215,7 +217,7 @@ function create_config( )
     "banhammer",
     "stats",
     "anti_spam",
-    "owners",
+    "owners",131438331
     "arabic_lock",
     "set",
     "get",
@@ -224,12 +226,12 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin",
+    "admin",id131438331
     "lock_badw",
     "lock_link",
     "tag",
     "setrank",
-    "id",
+    "id",131438331
     "tagall",
     "SUDO",
     "feedback",
@@ -246,9 +248,9 @@ function create_config( )
     An Advanced Anti Spam Bot Forked On TeleSeed
     
     Develpoed By:
-    @sina7sk
+    @WORLDMD
     Manager:
-    @yellowhat
+    @WORLDMD
     Founder:
     @amirho3in
     
@@ -343,9 +345,9 @@ _________________________________________
 _________________________________________
 _________________________________________
 _________________________________________
-ليست سودوها :@Cia_00_07
-@sina7sk
-@amirho3in
+ليست سودوها :@WORLDMD
+@WORLDMD
+@WORLDMD
 ]]
   }
   serialize_to_file(config, './data/config.lua')
